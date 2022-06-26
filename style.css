@@ -379,18 +379,20 @@ header{
     font-size: 2rem;
     font-weight: 500;
     color: #eee;
+    
 }
+
 
 .card-info h3{
     font-family: var(--font-secundary);
     font-weight: bolder;
-    color: #0575E6;
+    color: #ffffff;
     margin-bottom: 1.5rem;
 }
 
 .card-info p{
     font-family: var(--font-secundary);
-    color: #eee;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     width: 80%;
     margin-bottom: 2rem;
@@ -407,6 +409,7 @@ header{
     border-radius: .5rem;
     border: none;
     box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+    cursor: pointer;
 }
 
 .card:hover .card-info{
