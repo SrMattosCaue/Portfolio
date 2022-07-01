@@ -638,7 +638,7 @@ footer{
 }
 
 
-@media(max-width:992px){
+@media(max-width:700px){
   .projetos{
     flex-direction: column;
     justify-content: center;
@@ -646,7 +646,7 @@ footer{
 
   .banner{
     flex-direction: column-reverse;
-    width: 100%;
+    width: 50%;
   }
 
   #link-topo{
@@ -703,9 +703,13 @@ footer{
   
   .card .card-img-wrapper{
     max-width: 90%;
-    margin: auto;
+    margin-left: 25%;
     width: 100%;
-    margin-bottom: 20px;
+    
+  }
+
+  .card .card-info{
+    margin-left: 25%;
   }
 
 }
